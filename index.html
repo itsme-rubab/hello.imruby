@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 800px;
+            background-color: rgb(178, 108, 108);
+            position: relative;
+            margin: 0 auto;
+        }
+        .left{
+            width: 200px;
+            height: 500px;
+            background-color: rgb(49, 84, 59);
+            float: left;
+        }
+        .right{
+            width: 600px;
+            height: 500px;
+            background-color: rgb(119, 151, 151);
+            float: right;
+        }
+        .profile{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(253, 253, 253);
+            border-radius: 100%;
+            margin-top: 20px;
+            margin-left: 20px;
+            box-shadow: 1px 1px 50px rgb(220, 220, 100);
+        }
+
+        .nav {
+            text-align: center;
+        }
+
+        .nav ul {
+            padding: 0;
+            list-style: none;
+            display: inline-block;
+        }
+
+        .nav li {
+            display: inline-block;
+            background-color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .nav li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav li:hover {
+            background-color: rgb(76, 76, 76);
+            color: rgb(239, 239, 239);
+        }
+    </style>
+</head>
+<body>
+<div class="nav">
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">Contact Us</a>
+        </li>
+    </ul>
+</div>
+
+    <div class="box">
+        <div class="left"></div>
+        <div class="right">
+            <div class="profile"></div>
+        </div>
+    </div>
+</body>
+</html>
